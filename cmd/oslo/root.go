@@ -18,9 +18,9 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/OpenSLO/oslo/cmd/oslo/convert"
-	fmtCmd "github.com/OpenSLO/oslo/cmd/oslo/fmt"
-	"github.com/OpenSLO/oslo/cmd/oslo/validate"
+	"github.com/agaurav/oslo/cmd/oslo/convert"
+	fmtCmd "github.com/agaurav/oslo/cmd/oslo/fmt"
+	"github.com/agaurav/oslo/cmd/oslo/validate"
 )
 
 // Execute adds all child commands to the root command and sets flags appropriately.

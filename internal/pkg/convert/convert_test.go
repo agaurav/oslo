@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v3"
 
-	v1 "github.com/OpenSLO/oslo/pkg/manifest/v1"
+	v1 "github.com/agaurav/oslo/pkg/manifest/v1"
 )
 
 func Test_getCountMetrics(t *testing.T) {

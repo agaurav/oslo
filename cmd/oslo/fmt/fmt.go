@@ -23,7 +23,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	fmtCmd "github.com/OpenSLO/oslo/internal/pkg/fmt"
+	fmtCmd "github.com/agaurav/oslo/internal/pkg/fmt"
 )
 
 // NewFmtCmd returns a new command for formatting a file.

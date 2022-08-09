@@ -24,7 +24,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/OpenSLO/oslo/internal/pkg/convert"
+	"github.com/agaurav/oslo/internal/pkg/convert"
 )
 
 // NewConvertCmd returns a new command for formatting a file.

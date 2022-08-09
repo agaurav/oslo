@@ -20,8 +20,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/OpenSLO/oslo/pkg/manifest"
-	v1 "github.com/OpenSLO/oslo/pkg/manifest/v1"
+	"github.com/agaurav/oslo/pkg/manifest"
+	v1 "github.com/agaurav/oslo/pkg/manifest/v1"
 )
 
 func TestParse(t *testing.T) {

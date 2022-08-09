@@ -23,7 +23,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/OpenSLO/oslo/internal/pkg/yamlutils"
+	"github.com/agaurav/oslo/internal/pkg/yamlutils"
 )
 
 // File formats a single file and writes it to the provided writer.

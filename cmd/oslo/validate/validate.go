@@ -20,7 +20,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/OpenSLO/oslo/internal/pkg/validate"
+	"github.com/agaurav/oslo/internal/pkg/validate"
 )
 
 // NewValidateCmd returns a new cobra.Command for the validate command.

@@ -25,12 +25,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hashicorp/go-multierror"
 	"gopkg.in/yaml.v3"
 
-	"github.com/OpenSLO/oslo/pkg/manifest"
-	v1 "github.com/OpenSLO/oslo/pkg/manifest/v1"
-	"github.com/OpenSLO/oslo/pkg/manifest/v1alpha"
+	"github.com/hashicorp/go-multierror"
+
+	"github.com/agaurav/oslo/pkg/manifest"
+	v1 "github.com/agaurav/oslo/pkg/manifest/v1"
+	"github.com/agaurav/oslo/pkg/manifest/v1alpha"
 )
 
 // ReadConf reads in filename for a yaml file and returns the byte array.

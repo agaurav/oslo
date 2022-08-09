@@ -17,13 +17,11 @@ package validate
 
 import (
 	"errors"
+	"github.com/agaurav/oslo/internal/pkg/yamlutils"
+	"github.com/agaurav/oslo/pkg/manifest"
+	"github.com/go-playground/validator/v10"
 	"strings"
 	"time"
-
-	"github.com/go-playground/validator/v10"
-
-	"github.com/OpenSLO/oslo/internal/pkg/yamlutils"
-	"github.com/OpenSLO/oslo/pkg/manifest"
 )
 
 // validateStruct takes the given struct and validates it.

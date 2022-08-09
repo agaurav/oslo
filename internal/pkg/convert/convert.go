@@ -27,11 +27,11 @@ import (
 	"github.com/fatih/color"
 	"gopkg.in/yaml.v3"
 
-	nobl9manifest "github.com/OpenSLO/oslo/internal/pkg/manifest/nobl9"
-	nobl9v1alpha "github.com/OpenSLO/oslo/internal/pkg/manifest/nobl9/v1alpha"
-	"github.com/OpenSLO/oslo/internal/pkg/yamlutils"
-	"github.com/OpenSLO/oslo/pkg/manifest"
-	v1 "github.com/OpenSLO/oslo/pkg/manifest/v1"
+	nobl9manifest "github.com/agaurav/oslo/internal/pkg/manifest/nobl9"
+	nobl9v1alpha "github.com/agaurav/oslo/internal/pkg/manifest/nobl9/v1alpha"
+	"github.com/agaurav/oslo/internal/pkg/yamlutils"
+	"github.com/agaurav/oslo/pkg/manifest"
+	v1 "github.com/agaurav/oslo/pkg/manifest/v1"
 )
 
 // RemoveDuplicates to remove duplicate string from a slice.
